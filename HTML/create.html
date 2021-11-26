@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang=“ja”>
+<head>
+    <meta charset=“UTF-8">
+    <meta http-equiv=“X-UA-Compatible” content=“IE=edge”>
+    <meta name=“viewport” content=“width=device-width, initial-scale=1.0">
+    <title>入力画面</title>
+</head>
+<body>
+    <div class=“container”>
+        <div class=“header-container”>
+            <div class=“title”>MY<br>KAKEIBO</div>
+            <div class=“top-button”>
+                <input type=“button” class=“top-btn” value=“入力一覧画面“>
+            </div>
+        </div>
+        <div class=“main-container”>
+            <div class=“sub-title”>
+                入力画面
+            </div>
+            <div class=“left-main-container”>
+                <div class=“syuushi”>
+                    <label for=“”>収支</label>
+                    <input type=“radio” name=“収支” value=“支出” checked>支出
+                    <input type=“radio” name=“収支” value=“収入“>収入
+                </div>
+                <div class=“date”>
+                    <label for=“”>日付</label>
+                    <input type=“text” class=“text-line”>
+                </div>
+                <div class=“category”>
+                    <label for=“”>カテゴリ</label>
+                    <select name=“” id=“” class=“categories”>
+                        <option value=“”>選択してください</option>
+                        <option value=“”>食費</option>
+                        <option value=“”>日用品</option>
+                    </select>
+                </div>
+            </div>
+            <div class=“right-main-container”>
+                <div class=“money”>
+                    <label for=“”>金額</label>
+                    <input type=“text” class=“text-line”>円
+                </div>
+                <div class=“memo”>
+                    <label for=“”>メモ</label>
+                    <input type=“textarea” name=“” id=“” class=“memoyoushi”>
+                </div>
+            <div class=“under-ber”>
+                <input type=“button” class=“under-btn” value=“登録する“>
+            </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

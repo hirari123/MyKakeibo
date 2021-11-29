@@ -5,31 +5,35 @@
     <meta http-equiv=“X-UA-Compatible” content=“IE=edge”>
     <meta name=“viewport” content=“width=device-width, initial-scale=1.0">
     <title>入力画面</title>
+    <link rel="stylesheet" href="../CSS/create.css">
+    <link rel="stylesheet" href="../CSS/reset.css">
 </head>
 <body>
     <div class=“container”>
         <div class=“header-container”>
-            <div class=“title”>MY<br>KAKEIBO</div>
+            <h1><div class=“title”>MY<br>KAKEIBO</div></h1>
             <div class=“top-button”>
-                <input type=“button” class=“top-btn” value=“入力一覧画面“>
-            </div>
+                <a href="index.html">
+                    <button type="button"><span>入出金一覧</span></button>
+                </a>
+        </div>
         </div>
         <div class=“main-container”>
-            <div class=“sub-title”>
+            <h2><div class=“sub-title”>
                 入力画面
-            </div>
+            </div></h2>
             <div class=“left-main-container”>
                 <div class=“syuushi”>
-                    <label for=“”>収支</label>
-                    <input type=“radio” name=“収支” value=“支出” checked>支出
-                    <input type=“radio” name=“収支” value=“収入“>収入
+                    <h3><label for=“”>収支</label></h3>
+                    <input type="radio" name="example" value="収支"　checked>支出
+                    <input type="radio" name="example" value="収支" >収入
                 </div>
                 <div class=“date”>
-                    <label for=“”>日付</label>
+                    <h3><label for=“”>日付</label></h3>
                     <input type=“text” class=“text-line”>
                 </div>
                 <div class=“category”>
-                    <label for=“”>カテゴリ</label>
+                    <h3><label for=“”>カテゴリ</label></h3>
                     <select name=“” id=“” class=“categories”>
                         <option value=“”>選択してください</option>
                         <option value=“”>食費</option>
@@ -39,15 +43,15 @@
             </div>
             <div class=“right-main-container”>
                 <div class=“money”>
-                    <label for=“”>金額</label>
-                    <input type=“text” class=“text-line”>円
+                    <h3><label for=“”>金額</label></h3>
+                    <p><input type=“text” class=“text-line”>円</p>
                 </div>
                 <div class=“memo”>
-                    <label for=“”>メモ</label>
+                    <h3><label for=“”>メモ</label></h3>
                     <input type=“textarea” name=“” id=“” class=“memoyoushi”>
                 </div>
             <div class=“under-ber”>
-                <input type=“button” class=“under-btn” value=“登録する“>
+            </div><button type="submit">登録する</button>
             </div>
             </div>
         </div>
